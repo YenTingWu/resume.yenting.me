@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shalimar&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karma&family=Merienda&display=swap"
+      rel="stylesheet"
+    />
+    <title>Resume | YTW</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: 100%;
+        min-height: 100vh;
+        padding: 0;
+        margin: 0;
+        font-family: "Merienda", cursive;
+        color: #333333;
+        background-color: #fdfbf8;
+      }
+      .icons {
+        width: 16px;
+        height: 16px;
+      }
+      .icons-links:not(:first-child) {
+        margin-left: 0.7rem;
+      }
+      .card-container:not(:first-child) {
+        margin-top: 1.5rem;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              Shalimar: ["'Shalimar'", "cursive"],
+            },
+            screens: {
+              md_lg: "960px",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div class="flex justify-center w-full pt-10">
+      <main
+        class="grid grid-cols-3 grid-flow-row-dense w-full max-w-screen-md_lg"
+      >
+        <section>
+          <h3 class="antialiased font-Shalimar text-5xl font-medium">
+            Yen Ting Wu
+          </h3>
+          <p class="mt-2 mb-4 text-gray-400 text-sm">Software Engineer</p>
+          <a class="text-xs" target="_blank" href="mailto:a9600125a@gmail.com"
+            >a9600125a@gmail.com
+          </a>
+          <span class="flex mt-2 mx-auto">
+            <a
+              class="icons-links"
+              target="_blank"
+              href="https://github.com/YenTingWu"
+            >
+              <i class="icons" data-feather="github"></i>
+            </a>
+            <a
+              class="icons-links"
+              target="_blank"
+              href="https://twitter.com/YenTing09677393"
+            >
+              <i class="icons" data-feather="twitter"></i>
+            </a>
+            <a class="icons-links" target="_blank" href="https://yenting.me">
+              <i class="icons" data-feather="globe"></i>
+            </a>
+          </span>
+        </section>
+        <section class="col-span-2">
+          <div class="card-container">
+            <div class="p-2">
+              <h4 class="mb-4 font-lg font-bold">
+                <span class="bg-gray-700 text-white pr-3">HI</span>
+              </h4>
+              <div class="card-content text-sm tracking-wider leading-6">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit,
+                eos ducimus debitis ipsam at veniam odio saepe cumque ullam
+                architecto pariatur dignissimos temporibus incidunt
+                exercitationem officia, dolorum labore in. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Ab sit, eos ducimus debitis
+                ipsam at veniam odio saepe cumque ullam architecto pariatur
+                dignissimos temporibus incidunt exercitationem officia, dolorum
+                labore in. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Ab sit, eos ducimus debitis ipsam at veniam odio saepe
+                cumque ullam architecto pariatur dignissimos temporibus incidunt
+                exercitationem officia, dolorum labore in.
+              </div>
+            </div>
+          </div>
+          <div class="card-container">
+            <div class="p-2">
+              <h4 class="mb-4 font-lg font-bold">
+                <span class="bg-gray-700 text-white pr-3">HI</span>
+              </h4>
+              <div class="card-content text-sm tracking-wider leading-6">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit,
+                eos ducimus debitis ipsam at veniam odio saepe cumque ullam
+                architecto pariatur dignissimos temporibus incidunt
+                exercitationem officia, dolorum labore in. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Ab sit, eos ducimus debitis
+                ipsam at veniam odio saepe cumque ullam architecto pariatur
+                dignissimos temporibus incidunt exercitationem officia, dolorum
+                labore in. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Ab sit, eos ducimus debitis ipsam at veniam odio saepe
+                cumque ullam architecto pariatur dignissimos temporibus incidunt
+                exercitationem officia, dolorum labore in.
+              </div>
+            </div>
+          </div>
+          <div class="card-container">
+            <div class="p-2">
+              <h4 class="mb-4 font-lg font-bold">
+                <span class="bg-gray-700 text-white pr-3">HI</span>
+              </h4>
+              <div class="card-content text-sm tracking-wider leading-6">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sit,
+                eos ducimus debitis ipsam at veniam odio saepe cumque ullam
+                architecto pariatur dignissimos temporibus incidunt
+                exercitationem officia, dolorum labore in. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Ab sit, eos ducimus debitis
+                ipsam at veniam odio saepe cumque ullam architecto pariatur
+                dignissimos temporibus incidunt exercitationem officia, dolorum
+                labore in. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Ab sit, eos ducimus debitis ipsam at veniam odio saepe
+                cumque ullam architecto pariatur dignissimos temporibus incidunt
+                exercitationem officia, dolorum labore in.
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
