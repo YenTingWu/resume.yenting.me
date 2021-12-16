@@ -10,7 +10,7 @@ const puppeteer = require("puppeteer");
 
   await wait();
 
-  await page.pdf({ path: "test.pdf", format: "A4" });
+  await page.pdf({ path: "resume.pdf", format: "A4", printBackground: true });
 
   await browser.close();
 })();
