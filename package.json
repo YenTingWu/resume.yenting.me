@@ -1,7 +1,7 @@
 {
   "name": "resume.yenting.me",
   "version": "1.0.0",
-  "description": "",
+  "description": "My resume template",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
     "format": "prettier --write"
   },
   "keywords": [],
-  "author": "",
+  "author": "YTW",
   "license": "ISC",
   "devDependencies": {
     "prettier": "^2.5.1"
