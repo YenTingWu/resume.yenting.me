@@ -13,14 +13,14 @@ body {
 }
 
 div.card-container p {
-  line-height: 24px;
-  letter-spacing: 1.15px;
+  line-height: 20px;
+  letter-spacing: 1px;
 }
 div.card-container h4 {
   letter-spacing: 3px;
 }
 div.card-container p:not(:first-child) {
-  margin-top: 0.7rem;
+  margin-top: 0.4rem;
 }
 
 .icons {
@@ -77,10 +77,21 @@ div.card-container p:not(:first-child) {
 #info .icons-links:not(:first-child) {
   margin-left: 0.7rem;
 }
-.card-container:not(:first-child) {
-  margin-top: 1.5rem;
-}
 
 ul > li:not(:first-child) {
   margin-top: 3px;
+}
+
+@media only screen and (min-width: 960px) {
+  .card-container:not(:first-child) {
+    margin-top: 1.5rem;
+  }
+  div.card-container p:not(:first-child) {
+    margin-top: 0.7rem;
+  }
+
+  div.card-container p {
+    line-height: 24px;
+    letter-spacing: 1.15px;
+  }
 }
