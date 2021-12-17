@@ -65,6 +65,15 @@ div.card-container p:not(:first-child) {
 .react-native {
   background-color: #38d1fc;
 }
+
+.node {
+  background-color: #417e38;
+}
+
+.docker {
+  background-color: #3696ed;
+}
+
 #info .icons-links:not(:first-child) {
   margin-left: 0.7rem;
 }

@@ -10,7 +10,18 @@ const puppeteer = require("puppeteer");
 
   await wait();
 
-  await page.pdf({ path: "resume.pdf", format: "A4", printBackground: true });
+  await page.pdf({
+    path: "resume.pdf",
+    format: "A4",
+    displayHeaderFooter: false,
+    printBackground: true,
+    margin: {
+      top: "0.4in",
+      bottom: "0.4in",
+      left: "0.4in",
+      right: "0.4in",
+    },
+  });
 
   await browser.close();
 })();
