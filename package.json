@@ -7,12 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "pdf:gen": "node pdf.js",
     "check:format": "prettier --check",
-    "format": "prettier --write"
+    "format": "prettier --write",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "YTW",
   "license": "ISC",
   "devDependencies": {
+    "husky": "^7.0.4",
     "prettier": "^2.5.1"
   },
   "dependencies": {
