@@ -11,7 +11,7 @@
   },
   "keywords": [],
   "author": "YTW",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "prettier": "^2.5.1"
   },
