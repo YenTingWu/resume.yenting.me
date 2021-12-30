@@ -74,6 +74,10 @@ div.card-container p:not(:first-child) {
   background-color: #3696ed;
 }
 
+.jest {
+  background-color: #99425b;
+}
+
 #info .icons-links:not(:first-child) {
   margin-left: 0.7rem;
 }
